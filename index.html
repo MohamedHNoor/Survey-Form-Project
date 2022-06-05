@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form action="" id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Name:</label><input type="text" id="name name-label"
+                placeholder="Enter your name">
+            <label for="email" id="email-label">Email:</label><input type="email" id="email email-label"
+                placeholder="Enter your email">
+            <label for="number" id="number-label">Age:</label><input type="number" id="number number-label" min="18"
+                max="100" placeholder="Age">
+        </fieldset>
+        <fieldset>
+            <label>Which option best describes your current role?</label>
+            <select name="" id="dropdown">
+                <option value="" select disabled>Select current role</option>
+                <option value="Student">Student</option>
+                <option value="Full-Time-Job">Full Time Job</option>
+                <option value="Full-Time-Learner">Full Time Learner</option>
+                <option value="Prefer-not-to-say">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="radio">Would you recommend freeCodeCamp to a friend?</label>
+            <input type="radio" class="inline" id="definitely" name="definitely" value="definitely"><label for="definitely">definitely</label>
+            <input type="radio" class="inline" id="Maybe" name="Maybe" value="Maybe"><label for="Maybe">Maybe</label>
+            <input type="radio" class="inline" id="Not-sure" name="Not-sure" value="Not-sure"><label for="Not-sure">Not sure</label>
+        </fieldset>
+        <fieldset>
+            <label for="checkbox">What would you like to see improved? (Check all that apply)</label>
+            <input type="checkbox" class="inline" id="Front-end Projects" name="Front-end Projects" value="Front-end Projects" ><label for="Front-end Projects">Front-end Projects</label>
+            <input type="checkbox" class="inline" id="Front-end Projects" name="Front-end Projects" value="Front-end Projects" ><label for="Front-end Projects">Front-end Projects</label>
+            <input type="checkbox" class="inline" id="Front-end Projects" name="Front-end Projects" value="Front-end Projects" ><label for="Front-end Projects">Front-end Projects</label>
+            <input type="checkbox" class="inline" id="Front-end Projects" name="Front-end Projects" value="Front-end Projects" ><label for="Front-end Projects">Front-end Projects</label>
+            <input type="checkbox" class="inline" id="Front-end Projects" name="Front-end Projects" value="Front-end Projects" ><label for="Front-end Projects">Front-end Projects</label>
+            <input type="checkbox" class="inline" id="Front-end Projects" name="Front-end Projects" value="Front-end Projects" ><label for="Front-end Projects">Front-end Projects</label>
+            <input type="checkbox" class="inline"id="Front-end Projects" name="Front-end Projects" value="Front-end Projects" ><label for="Front-end Projects">Front-end Projects</label>
+            <input type="checkbox" class="inline" id="Front-end Projects" name="Front-end Projects" value="Front-end Projects" ><label for="Front-end Projects">Front-end Projects</label>
+            <input type="checkbox" class="inline" id="Front-end Projects" name="Front-end Projects" value="Front-end Projects" ><label for="Front-end Projects">Front-end Projects</label>
+            <input type="checkbox" class="inline" id="Front-end Projects" name="Front-end Projects" value="Front-end Projects" ><label for="Front-end Projects">Front-end Projects</label>
+            <input type="checkbox" class="inline" id="Front-end Projects" name="Front-end Projects" value="Front-end Projects" ><label for="Front-end Projects">Front-end Projects</label>
+        </fieldset>
+        <fieldset>
+            <label for="">Any comments or suggestions?</label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+</body>
+
+</html>
